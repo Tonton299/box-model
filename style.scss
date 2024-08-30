@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// . antes da classe para funcionar corretamente
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    // margin é o espaçamento fora da caixa
+    margin: 20px;
+    // borda na imagem/quadrado 
+    border: solid 3px;
+    // display padrão da div: block
+    display: inline-block;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: slategray;
+    margin: 20px;
+    display: inline-block;
+}
